@@ -196,12 +196,12 @@ public class PlayerPanel extends JPanel {
 					normalBet += minBet * rand;				
 			}
 			else if (level == HARD) {
-				int optimal = minBet*(count*2);
+				int optimal = minBet*(count);
 				normalBet = optimal;
 			}
 			
-			if (normalBet > money / 10)
-				normalBet = money/10;			
+			if (normalBet > money / 20)
+				normalBet = money/20;			
 			if (normalBet < minBet)
 				normalBet = minBet;
 			
@@ -391,4 +391,3 @@ public class PlayerPanel extends JPanel {
 		return isHuman;
 	}
 }
-
