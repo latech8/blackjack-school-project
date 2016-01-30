@@ -1,0 +1,1 @@
+Working blackjack GUI and AI project coded in Java for a school project. Game currently supports 3 AIs and 1 human player. AI has two difficulty levels. AI makes decisions based on probability of busting (low-level AI) and card count (high-level AI).
